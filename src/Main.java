@@ -1,17 +1,17 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Демонстрация магической коробки для строк: ");
+        System.out.println("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ РјР°РіРёС‡РµСЃРєРѕР№ РєРѕСЂРѕР±РєРё РґР»СЏ СЃС‚СЂРѕРє: ");
 
         MagicBox<String> box1 = new MagicBox<>();
         box1.magicBox(new String[2]);
-        System.out.println(box1.add("Ромашки"));
-        System.out.println(box1.add("Розы"));
-        System.out.println(box1.add("Фиалки"));
+        System.out.println(box1.add("Р РѕРјР°С€РєРё"));
+        System.out.println(box1.add("Р РѕР·С‹"));
+        System.out.println(box1.add("Р¤РёР°Р»РєРё"));
         System.out.println((String) box1.pick());
 
         System.out.println();
-        System.out.println("Демонстрация магической коробки для чисел: ");
+        System.out.println("Р”РµРјРѕРЅСЃС‚СЂР°С†РёСЏ РјР°РіРёС‡РµСЃРєРѕР№ РєРѕСЂРѕР±РєРё РґР»СЏ С‡РёСЃРµР»: ");
 
         MagicBox<Integer> box2 = new MagicBox<>();
         box2.magicBox(new Integer[]{1, 2, 3, 4, 5});

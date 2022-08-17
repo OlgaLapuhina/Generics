@@ -23,7 +23,7 @@ public class MagicBox<T> {
     public <T> T pick() {
         for (int i = 0; i < items.length; i++) {
             if (items[i] == null) {
-                throw new RuntimeException("Êîðîáêà íå ïîëíà è îñòàëîñü çàïîëíèòü åù¸ ÿ÷åéêè â êîëè÷åñòâå " + (items.length - emptyCell));
+                throw new RuntimeException("ÐšÐ¾Ñ€Ð¾Ð±ÐºÐ° Ð½Ðµ Ð¿Ð¾Ð»Ð½Ð° Ð¸ Ð¾ÑÑ‚Ð°Ð»Ð¾ÑÑŒ Ð·Ð°Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÑŒ ÐµÑ‰Ñ‘ ÑÑ‡ÐµÐ¹ÐºÐ¸ Ð² ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ðµ " + (items.length - emptyCell));
             }
         }
         Random random = new Random();
